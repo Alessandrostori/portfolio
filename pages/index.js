@@ -36,7 +36,7 @@ export default function Home() {
               <li className="sm: justify-end">
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pointer ml-10 mb-5 dark:text-white"
+                  className="cursor-pointer ml-10 mb-5  text-black dark:text-white"
                 />
               </li>
               <li className="sm: invisible">
@@ -54,10 +54,10 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium">
               Alessandro Stori
             </h2>
-            <h3 className="text-2xl py-2 dark:text-white">
+            <h3 className="text-2xl py-2  text-black dark:text-white">
               Student at University of Cagliari
             </h3>
-            <h3 className="text-1xl py-3 font-press_start dark:text-white">
+            <h3 className="text-1xl py-3 font-press_start  text-black dark:text-white">
               Cat owner
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
@@ -99,8 +99,8 @@ export default function Home() {
                 ></Image>
               </div>
 
-              <h3 className="text-lg font-medium pt-8 pb-2  ">Python bot</h3>
-              <p className="py-1">
+              <h3 className="text-lg font-medium pt-8 pb-2  text-black ">Python bot</h3>
+              <p className=" text-black py-1">
                 Project to refine python skills and learn the open-cv library
                 through the creation of a bot for the collection of resources on
                 a browser game
@@ -123,10 +123,10 @@ export default function Home() {
                 ></Image>
               </div>
 
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              <h3 className="text-lg font-medium pt-8 pb-2  text-black  ">
                 Web Development
               </h3>
-              <p className="py-2">
+              <p className=" text-black py-2 ">
                 Some university projects have been completed through the use of
                 these languages. Also with django I created a tool that allows
                 you to check the latest ebay sales.
@@ -147,10 +147,10 @@ export default function Home() {
                 ></Image>
               </div>
 
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              <h3 className="text-lg font-medium pt-8 pb-2  text-black  ">
                 Unity 3D Game Development
               </h3>
-              <p className="py-2">
+              <p className=" text-black py-2">
                 University project that led me to work in a team, in addition to
                 acquiring excellent knowledge on teamwork, I deepened the
                 concepts of user experience and software design.
