@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-white px-10 md:px-20 lg:px-40  dark:bg-gray-900">
-        <section className="h-full">
+        <section className="h-screen dark: h-full">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-lg font-press_start text-black dark:text-white">
               0xPastore
@@ -51,7 +51,7 @@ export default function Home() {
           </nav>
 
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium sm: text-3xl">
               Alessandro Stori
             </h2>
             <h3 className="text-2xl py-2  text-black dark:text-white">
@@ -147,7 +147,7 @@ export default function Home() {
                 ></Image>
               </div>
 
-              <h3 className="text-lg font-medium pt-8 pb-2  text-black  ">
+              <h3 className="text-lg font-medium pt-8 pb-2 mb-8 text-black  ">
                 Unity 3D Game Development
               </h3>
               <p className=" text-black py-2">
