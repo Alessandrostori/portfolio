@@ -25,21 +25,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
-        <section className="h-screen">
+      <main className="bg-white px-10 md:px-20 lg:px-40  dark:bg-gray-900">
+        <section className="h-full">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-lg font-press_start dark:text-white">0xPastore </h1>
+            <h1 className="text-lg font-press_start dark:text-white">
+              0xPastore
+            </h1>
 
-            <ul className="flex items-center">
-              <li>
+            <ul className="flex items-center ">
+              <li className="sm: justify-end">
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pointer"
+                  className="cursor-pointer ml-10 mb-5 dark:text-white"
                 />
               </li>
-              <li>
+              <li className="sm: invisible">
                 <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 "
                   href="#"
                 >
                   Dark Mode
@@ -52,8 +54,12 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium">
               Alessandro Stori
             </h2>
-            <h3 className="text-2xl py-2 dark:text-white">Student at University of Cagliari</h3>
-            <h3 className="text-1xl py-3 font-press_start dark:text-white">Cat owner</h3>
+            <h3 className="text-2xl py-2 dark:text-white">
+              Student at University of Cagliari
+            </h3>
+            <h3 className="text-1xl py-3 font-press_start dark:text-white">
+              Cat owner
+            </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
               necessitatibus!
@@ -72,7 +78,9 @@ export default function Home() {
           {/*Projects area*/}
 
           <div className="text-center p-10">
-            <h2 className="text-3xl py-1 dark:text-teal-600">Latest projects</h2>
+            <h2 className="text-3xl py-1 dark:text-teal-600">
+              Latest projects
+            </h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               You can check my new projects on GitHub
             </p>
