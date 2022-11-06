@@ -4,6 +4,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
+  AiFillGithub
 } from "react-icons/ai";
 
 import { SiDiscord } from "react-icons/si";
@@ -26,7 +27,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-white px-10 md:px-20 lg:px-40  dark:bg-gray-900">
-        <section className="h-screen dark: h-full">
+        <section >
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-lg font-press_start text-black dark:text-white">
               0xPastore
@@ -66,9 +67,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <AiFillLinkedin />
-            <AiFillTwitterCircle />
-            <SiDiscord />
+            <a href="#"><AiFillLinkedin/></a>
+            <a href="https://github.com/Alessandrostori"><AiFillGithub/></a>
+            <a href="discordapp.com/users/Pastore#4636"><SiDiscord/></a>
           </div>
           {/* 
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
@@ -82,7 +83,10 @@ export default function Home() {
               Latest projects
             </h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              You can check my new projects on GitHub
+              You can check my new projects on <a href="https://github.com/Alessandrostori" className="text-teal-600">GitHub</a>
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+            A brief explanation of the projects completed during 2022
             </p>
           </div>
 
@@ -131,7 +135,7 @@ export default function Home() {
                 these languages. Also with django I created a tool that allows
                 you to check the latest ebay sales.
               </p>
-              <h4 className="py-4 text-teal-600">Skills:</h4>
+              <h4 className="py-4 text-teal-600">Developed with:</h4>
               <p className="text-gray-800 py-1">HTML&CSS</p>
               <p className="text-gray-800 py-1">Nextjs</p>
               <p className="text-gray-800 py-1">Django</p>
@@ -163,6 +167,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <br className="py-2" />
       </main>
     </div>
   );
